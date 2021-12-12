@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Consulta de CNPJ</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!--===============================================================================================-->
+	<!-- Adicionando JQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- Adicionando Javascript -->
+	<script src="dadosCNPJ.js"></script>
+	<script type="text/javascript" src="apiCNPJ.js"></script>
+	<!--===============================================================================================-->
+</head>
+
+<body>
+	<form action="#" class="form-contact" tabindex="1" name="meu_form" action="javascript: enviar();" method="POST"
+		id="myForm">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+						aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Consulta de CNPJ</a>
+		</nav>
+
+		<section>
+			<div class="row">
+				<div class="form-group col-md-2">
+					<label for="cnpjTomador">CNPJ</label>
+					<input type="text" class="form-control" id="cnpjTomador">
+				</div>
+				<div class="form-group col-md-4">
+					<label for="razaoSocial">Razão Social</label>
+					<input type="text" class="form-control" id="razaoSocial">
+				</div>
+				<div class="form-group col-md-3">
+					<label for="email">E-mail</label>
+					<input type="text" class="form-control" id="email">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-2">
+					<label for="cnae">CNAE</label>
+					<input type="text" class="form-control" id="cnae">
+				</div>
+				<div class="form-group col-md-3">
+					<label for="cnaeDesc">CNAE - Descrição</label>
+					<input type="text" class="form-control" id="cnaeDesc">
+				</div>
+				<div class="form-group col-md-2">
+					<label for="inscEstadual">Insrição Estadual</label>
+					<input type="text" class="form-control" id="inscEstadual">
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="row">
+				<div class="form-group col-md-2">
+					<label for="cep">CEP</label>
+					<input type="text" class="form-control" id="cep">
+				</div>
+				<div class="form-group col-md-3">
+					<label for="logradouro">Logradouro</label>
+					<input type="text" class="form-control" id="logradouro">
+				</div>
+				<div class="form-group col-md-1">
+					<label for="numero">Número</label>
+					<input type="text" class="form-control" id="numero">
+				</div>
+				<div class="form-group col-md-2">
+					<label for="complemento">Complemento</label>
+					<input type="text" class="form-control" id="complemento">
+				</div>
+				<div class="form-group col-md-2">
+					<label for="bairro">Bairro</label>
+					<input type="text" class="form-control" id="bairro">
+				</div>
+				<div class="form-group col-md-1">
+					<label for="uf">UF</label>
+					<input type="text" class="form-control" id="uf">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-1">
+					<label for="telDDD">DDD</label>
+					<input type="text" class="form-control" id="telDDD">
+				</div>
+				<div class="form-group col-md-2">
+					<label for="telContato">Telefone</label>
+					<input type="text" class="form-control" id="telContato">
+				</div>
+			</div>
+		</section>
+	</form>
+</body>
+
+
+</html>
