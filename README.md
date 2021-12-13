@@ -16,3 +16,4 @@
   - https://www.linkedin.com/in/guilherme-santos-beranger-4578a0161/
 
 ## Acesse:
+https://consulta-cnpj.netlify.app/
