@@ -10,7 +10,7 @@
  - *CSS*
  - *Jquery*
 
-## Auto
+## Autor
   Guilherme Beranger
   Linkedin:
   - https://www.linkedin.com/in/guilherme-santos-beranger-4578a0161/
